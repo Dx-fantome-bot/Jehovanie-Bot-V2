@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <style>
+        body {
+            background-color: #040029;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            color: #0073FF;
+            height: 100vh;
+            position: relative;
+        }
+
+        #main-photo {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            margin-top: 20px;
+        }
+
+        input {
+            margin: 10px;
+            padding: 5px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #7660C1;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="main-photo" src="https://i.imgur.com/08OFiWF.jpeg" alt="">
+    <form>
+        <input type="text" placeholder="Nom">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Mot de passe">
+        <button>Créer un compte</button>
+    </form>
+</body>
+
+</html>
